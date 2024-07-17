@@ -1,0 +1,80 @@
+Project Title: "Latte Brews Coffee Shop Database Project"
+
+Project Overview:
+
+The Latte Brews Coffee Shop Database Project aims to create a comprehensive database system to manage various aspects of a coffee shop business. 
+This includes managing customers, employees, coffee types, product inventory, orders, and sales data. 
+The database will support efficient data management, transaction processing, and analytical queries to help in business decision-making.
+
+Database Schema:
+
+Customers Table:
+
+Fields: customer_id, first_name, last_name, email, phone_number, address, city, state, zip_code, date_of_birth, loyalty_points
+
+Employees Table:
+
+Fields: employee_id, first_name, last_name, email, phone_number, hire_date, job_title, salary, manager_id
+
+CoffeeTypes Table:
+
+Fields: coffee_id, coffee_name, description, origin, roast_level, flavor_profile, caffeine_content, brew_methods
+
+CoffeeSizes Table:
+
+Fields: size_id, size_name, size_oz, price
+
+Products Table:
+
+Fields: product_id, product_name, coffee_id, category, stock_quantity, description
+
+Orders Table:
+
+Fields: order_id, customer_id, employee_id, order_date, total_amount, payment_method
+
+OrderDetails Table:
+
+Fields: order_detail_id, order_id, product_id, size_id, quantity, price_each
+
+
+Database Design:
+
+#Design and create the database schema based on the above tables.
+#Define relationships between tables using primary keys and foreign keys.
+
+Data Population:
+
+Populate tables with sample data to simulate a realistic coffee shop environment.
+Use Indian names for customers and employees to add authenticity to the data.
+
+Queries and Procedures:
+
+Develop SQL queries and stored procedures to perform various tasks:
+Retrieve detailed customer and employee information.
+Manage product inventory and update stock quantities.
+Process customer orders and calculate total sales revenue.
+Generate reports such as monthly sales summaries, top-selling products, and customer purchase histories.
+
+Implementation:
+
+Implement the database schema and execute SQL scripts to create tables and relationships.
+Insert sample data into tables to facilitate query testing and analysis.
+
+Testing and Optimization:
+
+Test SQL queries and procedures for accuracy and performance.
+Optimize queries for efficiency, especially those involving joins and aggregations.
+
+
+Description of Queries:
+
+Monthly Sales Report: Calculate total revenue by month to track sales trends.
+Customer Purchase History: Retrieve detailed order information for each customer.
+Product Inventory Management: Update stock quantities and monitor product availability.
+Employee Performance Analysis: Evaluate employee sales performance based on order details.
+Top-Selling Products: Identify the most popular products based on sales volume.
+
+Conclusion:
+The Latte Brews Coffee Shop Database Project aims to enhance operational efficiency and decision-making capabilities through effective data management and analysis. 
+By leveraging SQL queries and stored procedures, the database facilitates seamless transaction processing and insightful business reporting.
+
